@@ -1,0 +1,14 @@
+{
+  "name": "todo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Matt Stanley",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.24.0"
+  }
+}
