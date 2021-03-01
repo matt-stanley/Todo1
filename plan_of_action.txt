@@ -1,0 +1,76 @@
+// TODO v1
+
+OBJECTS
+=========
+
+1. Project factory function that creates objects with:
+  a. Unique ID
+  b. Array of lists
+  c. Priority
+  d. Completed boolean
+  e. Date created
+  f. Date modified
+
+2. List factory function that creates objects with:
+  a. Unique ID
+  b. Array of todos
+  c. Priority
+  d. Completed boolean
+  e. Date created
+  f. Date modified
+
+3. Todo factory function that creates objects with:
+  a. Unique ID
+  b. Text of TODO
+  c. Priority
+  d. Completed boolean
+  e. Date created
+  f. Date modified
+
+
+METHODS
+=========
+
+1. Projects
+  a. Add list
+  b. Remove list
+  c. Mark complete
+  d. Mark incomplete
+  e. Change priority
+
+2. Lists
+  a. Add todo
+  b. Remove todo
+  c. Mark complete
+  d. Mark incomplete
+  e. Change priority
+  f. Move to different project
+
+3. Todos:
+  a. Change text
+  b. Mark complete
+  c. Mark incomplete
+  d. Change priority
+  e. Move to different list
+
+
+DOM
+========
+
+1. Menu outside 'app' div
+  a. New project
+  b. View projects
+
+2. New project
+  a. Project name
+  b. Priority
+
+3. View projects
+  a. Each project has name, 'View' button, and 'Delete' button
+  b. Sort function: priority, date created, date modified, alphabetical
+
+4. Project view
+  a. 'New List' button
+  b. Shows current lists with 'View' and 'Delete' buttons.
+  c. Sort function: priority, date created, date modified, alphabetical
+
