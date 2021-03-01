@@ -33,6 +33,10 @@ const createTodo = ({text = "Untitled", priority = 3}) => {
       return completed;
     },
 
+    setCompleted = (newStatus) => {
+      completed = newStatus;
+    },
+
     toggleCompleted = () => {
       completed = !completed;
     },
